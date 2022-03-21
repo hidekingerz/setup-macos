@@ -11,6 +11,9 @@ https://brew.sh/
 
 https://github.com/mas-cli/mas
 
+### Install DevTools
+
+https://github.com/nvm-sh/nvm
 
 ## Install
 
