@@ -15,9 +15,14 @@ https://github.com/mas-cli/mas
 
 https://github.com/nvm-sh/nvm
 
-## Install
+## Install Applications
 
 ```
-brew bundle install
-brew bundle cleanup --force 
+$ brew bundle install
+$ brew bundle cleanup --force 
+```
+
+## Setting Dock/Finder
+```
+$ ./bootstrap.sh
 ```
