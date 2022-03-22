@@ -24,5 +24,6 @@ $ brew bundle cleanup --force
 
 ## Setting Dock/Finder
 ```
-$ ./bootstrap.sh
+$ ./bootstrapMacOS.sh
+$ ./bootstrapThirdPartyApp.sh
 ```
