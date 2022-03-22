@@ -14,9 +14,16 @@ defaults write com.apple.finder ShowStatusBar -bool true
 ## カラム表示でグループでまとめる
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 defaults write com.apple.finder FXPreferredGroupBy -string "Kind"
+
+
 ## すべての拡張子を表示
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+## クリックしたスクロール位置へジャンプ
+defaults write NSGlobalDomain AppleScrollerPagingBehavior -int 1
 
 # Restart Dock/Finder
 killall Dock
 killall Finder
+
+## Reset Launchpad
+defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock

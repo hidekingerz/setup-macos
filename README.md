@@ -17,13 +17,19 @@ https://github.com/nvm-sh/nvm
 
 ## Install Applications
 
-```
+```shell
 $ brew bundle install
 $ brew bundle cleanup --force 
 ```
 
 ## Setting Dock/Finder
-```
+```shell
 $ ./bootstrapMacOS.sh
 $ ./bootstrapThirdPartyApp.sh
+```
+
+## Lauchpad
+
+```shell
+$ defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 ```
