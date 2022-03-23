@@ -3,7 +3,7 @@
 defaults write com.apple.dock autohide -bool false
 defaults write com.apple.dock tilesize -integer 48
 defaults write com.apple.dock largesize -integer 128
-defaults write com.apple.dock orientation right
+defaults write com.apple.dock orientation bottom
 
 # Finder
 ## すべてのファイルを表示
