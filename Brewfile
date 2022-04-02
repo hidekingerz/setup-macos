@@ -35,6 +35,7 @@ mas "LiquidText", id: 922765270
 mas "Messenger", id: 1480068668
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Prime Video", id: 545519333
+mas "The Unarchiver", id: 425424353
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
