@@ -4,8 +4,10 @@ tap "homebrew/core"
 
 # brew
 brew "mas"
+brew "go"
 brew "docker"
 brew "wget"
+
 
 # cask
 cask "1password"
