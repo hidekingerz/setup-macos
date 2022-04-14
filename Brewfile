@@ -3,28 +3,27 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 # brew
-brew "mas"
-brew "go"
 brew "docker"
+brew "go"
+brew "mas"
 brew "wget"
-
 
 # cask
 cask "1password"
-cask "iterm2"
-cask "notion"
-cask "raycast"
 cask "deepl"
 cask "discord"
-cask "skype"
-cask "scapple"
+cask "firefox"
+cask "goland"
 cask "google-chrome"
 cask "google-japanese-ime"
-cask "firefox"
-cask "webstorm"
 cask "intellij-idea"
-cask "goland"
+cask "iterm2"
+cask "notion"
 cask "pycharm"
+cask "raycast"
+cask "scapple"
+cask "skype"
+cask "webstorm"
 
 # AppStore
 mas "Display Menu", id: 549083868
