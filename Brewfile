@@ -5,6 +5,7 @@ tap "homebrew/core"
 # brew
 brew "go"
 brew "mas"
+brew "node_exporter"
 brew "wget"
 
 # cask
