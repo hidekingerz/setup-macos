@@ -6,6 +6,7 @@ tap "homebrew/core"
 brew "go"
 brew "mas"
 brew "node_exporter"
+brew "rustup-init"
 brew "wget"
 
 # cask
