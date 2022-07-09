@@ -11,6 +11,7 @@ brew "wget"
 
 # cask
 cask "1password"
+cask "android-studio"
 cask "deepl"
 cask "discord"
 cask "docker"
