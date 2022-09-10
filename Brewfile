@@ -7,6 +7,7 @@ brew "go"
 brew "mas"
 brew "node_exporter"
 brew "rustup-init"
+brew "switchaudio-osx"
 brew "wget"
 
 # cask
