@@ -26,6 +26,7 @@ cask "notion"
 cask "raycast"
 cask "scapple"
 cask "skype"
+cask "warp"
 
 # AppStore
 mas "Display Menu", id: 549083868
