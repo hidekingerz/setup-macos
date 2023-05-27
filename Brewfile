@@ -1,16 +1,16 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-
-# brew
+tap "homebrew/services"
+brew "deno"
+brew "gh"
 brew "go"
+brew "kubectx"
 brew "mas"
-brew "node_exporter"
+brew "node_exporter", restart_service: true
 brew "rustup-init"
 brew "switchaudio-osx"
 brew "wget"
-
-# cask
 cask "1password"
 cask "android-studio"
 cask "deepl"
@@ -23,15 +23,15 @@ cask "iterm2"
 cask "jetbrains-toolbox"
 cask "mockoon"
 cask "notion"
+cask "obsidian"
 cask "raycast"
 cask "scapple"
 cask "skype"
-cask "warp"
-
-# AppStore
+mas "1Password for Safari", id: 1569813296
 mas "Display Menu", id: 549083868
 mas "EdgeView 2", id: 1206246482
 mas "feedly", id: 865500966
+mas "GarageBand", id: 682658836
 mas "GoodNotes", id: 1444383602
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
