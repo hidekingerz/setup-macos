@@ -1,13 +1,14 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 brew "deno"
 brew "gh"
+brew "gnupg"
 brew "go"
+brew "kind"
 brew "kubectx"
 brew "mas"
 brew "node_exporter", restart_service: true
+brew "pinentry-mac"
 brew "rustup-init"
 brew "switchaudio-osx"
 brew "wget"
@@ -19,6 +20,7 @@ cask "docker"
 cask "firefox"
 cask "google-chrome"
 cask "google-japanese-ime"
+cask "gpg-suite"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "mockoon"
@@ -27,7 +29,9 @@ cask "obsidian"
 cask "raycast"
 cask "scapple"
 cask "skype"
+cask "warp"
 mas "1Password for Safari", id: 1569813296
+mas "DaisyDisk", id: 411643860
 mas "Display Menu", id: 549083868
 mas "EdgeView 2", id: 1206246482
 mas "feedly", id: 865500966
