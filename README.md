@@ -18,7 +18,16 @@ https://github.com/nvm-sh/nvm
 ## Install Applications
 
 ```shell
+インストール
 $ brew bundle install
+
+bundle作成
+$ brew bundle dump
+
+アップデートチェック
+$ brew bundle check
+
+Brewfileにないファイルを除去
 $ brew bundle cleanup --force 
 ```
 
